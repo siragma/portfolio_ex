@@ -1,1 +1,48 @@
-/* <!-- EBF400 #0D0A0B #FEFFFE #E0FF4F #FF6663 --> */
+/* Global */
+:root {
+  /* https://mui.com/material-ui/customization/color/ */
+  /* App Colors */
+  --color-primary: var(--color-black);
+  --color-primary-variant: var(--color-gray);
+  --color-accent: var(--color-yellow);
+  --color-accent-variant: var(--color-orange);
+  --color-text: var(--color-white);
+
+  /* Colors */
+  --color-white: #fefffe;
+  --color-black: #0d0a0b;
+  --color-yellow: #ebf400;
+  --color-orange: #ff6663;
+  --color-gray: #1b1e26;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+}
+button:focus {
+  outline: 1px solid var(--color-accent);
+}
