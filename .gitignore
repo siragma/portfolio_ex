@@ -1,0 +1,5 @@
+# zip file
+*.zip
+
+# reference folder
+/reference
