@@ -546,7 +546,6 @@ button:focus {
   .home__title {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    line-height: 1rem;
   }
   .majors {
     flex-direction: column;
